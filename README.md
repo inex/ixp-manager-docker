@@ -30,6 +30,12 @@ The multi-container Docker environment in this repository builds an IXP Manager 
 * a Bird-based route server pre-configured for 3 x IPv4 and 2 x IPv6 sessions. This also includes our [Bird's Eye](https://github.com/inex/birdseye) looking glass which has been integrated into *rs1* container and configured into the IXP Manager container.
 * five Bird-based route server clients complete with routes and a route server session.
 
+## Disclaimer
+
+**This is not for production use.**
+
+This Docker application has been built solely for non-production use cases. It should never be used in production environments.
+
 ## General Instructions
 
 Please see *Just Get It Running: Docker Compose* above to start up the full application. When running, a Docker process list should show something similar to:
